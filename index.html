@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<body>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>simple blog</title>
+    <title>a simple jokes blog</title>
     <link rel="stylesheet" href="./css/style.css" />
   <script src="./src/index.js" defer></script>
 </head>
@@ -12,38 +13,35 @@
     <h1 id="header">my blog</h1>
 </div>
 </header>
-<section >
-<div id="container">
-    <h2>all posts</h2>
-    <div id="post-list"></div>
-    <h2>add post</h2>
-    <form id="new-post">
-        <h3>update post details</h3>
-        <label for="new-post-title"> Title:</label>
-        <input type="text" name="title" id="new-post-title" required><br>
-        <label for="new-post-content"> content:</label>
-        <textarea name="content" id="new-post-content" rows="3" required></textarea><br>
-        <label for="new-post-author">author</label>
-        <input type="text" name="author" id="new-post-author" required><br>
-        <label for="new-post-image">image URL</label>
-        <input type="text" name="image" id="new-post-image" required><br>
-        <button type="submit" >Add post</button>
-    </form>
-</div>
-</section>
 <main>
-    <h2>post details</h2>
-    <form id="edit-post-form" class="hidden">
-    <h4>Update Post Details</h4>
-    <label for="edit-title">Title:</label>
-    <input type="text" name="title" id="edit-title" ><br>
-    <label for="edit-content">Content:</label>
-    <textarea name="content" id="edit-content" rows="3" ></textarea><br>
-    <button type="submit">Update Post</button>
-    <button type="button" id="cancel-edit" >Cancel</button>
-</form>
+   <section > 
+       <div id="container">
+          <h2>all posts</h2>
+
+            <div id="post-list"></div>
+
+
+
+           <div id="post-detail"></div>
+
+
+
+           <h2>add post</h2>
+             <form id="new-post">
+                <h3>update post details</h3>
+                   <label for="new-post-title"> Title:</label>
+                   <input type="text" name="title" id="new-post-title" required><br>
+                   <label for="new-post-content"> content:</label>
+                   <textarea name="content" id="new-post-content" rows="3" required></textarea><br>
+                   <label for="new-post-author">author</label>
+                   <input type="text" name="author" id="new-post-author" required><br>
+                   <label for="new-post-image">image URL</label>
+                   <input type="text" name="image" id="new-post-image" required><br>
+                   <button type="submit" >Add post</button>
+             </form>
+        </div>
+    </section>
 </main>
-<body>
     
 </body>
 </html>

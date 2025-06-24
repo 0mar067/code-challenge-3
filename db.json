@@ -5,35 +5,42 @@
       "title": "Why don't programmers like nature?",
       "content": "It has too many bugs.",
       "author": "CodeBot",
-      "image": "https://i.imgur.com/fHhZWl5.png"
+      "image": "./img/nature.png"
     },
     {
       "id": 2,
       "title": "Debugging = Detective Work",
       "content": "Debugging is like being the detective in a crime movie where you are also the murderer.",
       "author": "DevHumor",
-      "image": "https://i.imgur.com/qU0wM4r.jpg"
+      "image": "./img/kiling.png"
     },
     {
       "id": 3,
       "title": "A Classic Java Joke",
       "content": "Why do Java developers wear glasses? Because they don’t see sharp.",
       "author": "PunCompiler",
-      "image": "https://i.imgur.com/jk7Gzjz.png"
+      "image": "./img/see.png"
     },
     {
       "id": 4,
       "title": "Frontend vs Backend",
       "content": "Frontend: Makes it pretty. Backend: Makes it work. DevOps: Makes it stay up.",
       "author": "StackOverflow'd",
-      "image": "https://i.imgur.com/ZzZtI6y.jpg"
+      "image": "./img/front.png"
     },
     {
       "id": 5,
       "title": "404 Not Found",
       "content": "The joke you’re looking for doesn’t exist.",
       "author": "ServerBot",
-      "image": "https://i.imgur.com/63fCwkN.png"
+      "image": "./img/joke.png"
+    },
+    {
+      "title": " mjb",
+      "content": "kjbj,b",
+      "author": "Tiara",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZXGXiJ_aYF3wMvjXc8aXvTy6jpFnEoeRFeQ&s",
+      "id": 6
     }
   ]
 }
